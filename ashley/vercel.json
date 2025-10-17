@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "app.js": {
-      "includeFiles": "**"
-    }
-  },
   "rewrites": [
     {
       "source": "/",
