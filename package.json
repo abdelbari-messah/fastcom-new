@@ -1,0 +1,17 @@
+{
+  "name": "fastcom-template",
+  "version": "1.0.0",
+  "description": "FastCom - Portfolio & Agency Template",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o /ashley/home-1.html",
+    "dev": "npx http-server -p 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "template",
+    "agency"
+  ],
+  "author": "abdelbari-messah",
+  "license": "MIT"
+}
