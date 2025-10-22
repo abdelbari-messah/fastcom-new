@@ -9,6 +9,7 @@
 ```
 
 Or make it executable first:
+
 ```bash
 chmod +x start.sh
 ./start.sh
@@ -17,6 +18,7 @@ chmod +x start.sh
 ### Method 2: Using the Batch File (Windows)
 
 Double-click `start.bat` or run:
+
 ```cmd
 start.bat
 ```
