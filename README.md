@@ -61,7 +61,6 @@ Once the server is running, you can access:
 - Home Page 1: http://localhost:8000/ashley/home-1.html
 - Home Page 2: http://localhost:8000/ashley/home-2.html
 - Services: http://localhost:8000/ashley/services.html
-- Portfolio: http://localhost:8000/ashley/portfolio-1.html
 - Blog: http://localhost:8000/ashley/blog.html
 - Contact: http://localhost:8000/ashley/contact.html
 - And more...
