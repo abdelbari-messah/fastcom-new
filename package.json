@@ -4,7 +4,7 @@
   "description": "FastCom - Portfolio & Agency Template",
   "scripts": {
     "start": "npx http-server -p 8000 -o /ashley/home-1.html",
-    "dev": "npx http-server -p 8000",
+    "dev": "npx http-server -p 9000",
     "serve": "python3 -m http.server 8000"
   },
   "keywords": [
