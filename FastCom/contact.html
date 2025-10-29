@@ -16,13 +16,10 @@
     <link rel="stylesheet" href="css/plugins/swiper.min.css" />
     <!-- fancybox css -->
     <link rel="stylesheet" href="css/plugins/fancybox.min.css" />
-    <!-- ashley scss -->
+    <!-- FastCom scss -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- page name -->
-    <title>
-      Le secret derrière une campagne réussie : la psychologie du consommateur
-      sur le terrain
-    </title>
+    <title>FastCom</title>
   </head>
 
   <body>
@@ -41,24 +38,6 @@
         <div class="mil-choose-text">Choisir</div>
       </div>
       <!-- cursor end -->
-
-      <!-- preloader -->
-      <!-- <div class="mil-preloader">
-        <div class="mil-preloader-animation">
-          <div class="mil-pos-abs mil-animation-1">
-            <p class="mil-h3 mil-muted mil-thin">Pioneering</p>
-            <p class="mil-h3 mil-muted">Creative</p>
-            <p class="mil-h3 mil-muted mil-thin">Excellence</p>
-          </div>
-          <div class="mil-pos-abs mil-animation-2">
-            <div class="mil-reveal-frame">
-              <p class="mil-reveal-box"></p>
-              <p class="mil-h3 mil-muted mil-thin">ashley.com</p>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- preloader end -->
 
       <!-- scrollbar progress -->
       <div class="mil-progress-track">
@@ -91,10 +70,10 @@
                     <li class="mil-has-children">
                       <a href="services.html">Services</a>
                     </li>
-                    <li class="mil-has-children mil-active">
+                    <li class="mil-has-children">
                       <a href="blog.html">Newsletter</a>
                     </li>
-                    <li class="mil-has-children">
+                    <li class="mil-has-children mil-active">
                       <a href="contact.html">Contact</a>
                     </li>
                   </ul>
@@ -158,9 +137,9 @@
                     <div class="mil-divider mil-mb-60"></div>
                     <div class="row justify-content-between">
                       <div class="col-lg-7 mil-mb-60">
-                        <h6 class="mil-muted mil-up mil-mb-30">Morocco</h6>
+                        <h6 class="mil-muted mil-mb-30">Morocco</h6>
 
-                        <p class="mil-light-soft mil-up">
+                        <p class="mil-light-soft">
                           Résidence FIRDAOUS Immeuble 2, 5 ème étage,
                           appartement 44 Casablanca
                           <span class="mil-no-wrap">+212 662-191217</span>
@@ -203,273 +182,77 @@
       <div class="mil-content">
         <div id="swupMain" class="mil-main-transition">
           <!-- banner -->
-          <div class="mil-inner-banner">
+          <div class="mil-inner-banner mil-p-0-120">
             <div class="mil-banner-content mil-center mil-up">
               <div class="container">
                 <ul class="mil-breadcrumbs mil-center mil-mb-60">
                   <li><a href="home-1.html">Accueil</a></li>
-                  <li><a href="blog.html">Newsletter</a></li>
-                  <li><a href="blog.html">psychologie du consommateur</a></li>
+                  <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <h2>
-                  Le secret derrière une campagne
-                  <span class="mil-thin">réussie : </span><br />
-                  la psychologie du consommateur
-                  <span class="mil-thin"> sur le terrain</span>
-                </h2>
+                <h1 class="mil-mb-60">Contactez-nous !</h1>
+                <a
+                  href="#contact"
+                  class="mil-link mil-dark mil-arrow-place mil-down-arrow"
+                >
+                  <span>Envoyer un message</span>
+                </a>
               </div>
             </div>
           </div>
           <!-- banner end -->
 
-          <!-- publication -->
-          <section id="blog">
+          <!-- map -->
+          <div class="mil-map-frame mil-up">
+            <div class="mil-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1140.2047810945141!2d-7.514238655039587!3d33.601331809361085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cb006ad482c3%3A0x9a9601eb46dff97c!2sFastCom!5e1!3m2!1sen!2sma!4v1761580368521!5m2!1sen!2sma"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+          <!-- map end -->
+
+          <!-- contact form -->
+          <section id="contact">
             <div class="container mil-p-120-90">
-              <div class="row justify-content-center">
-                <div class="col-lg-12 mil-mb-90">
-                  <div class="mil-image-frame mil-horizontal mil-up">
-                    <img
-                      src="img/blog/b2.webp"
-                      alt="Publication cover"
-                      class="mil-scale"
-                      data-value-1=".90"
-                      data-value-2="1.15"
-                    />
-                  </div>
-                  <!-- <div class="mil-info mil-up mil-mb-90">
-                    <div>
-                      Category: &nbsp;<span class="mil-dark">Technology</span>
-                    </div>
-                    <div>
-                      Date: &nbsp;<span class="mil-dark">April 2023</span>
-                    </div>
-                    <div>
-                      Author: &nbsp;<span class="mil-dark">Paul Trueman</span>
-                    </div>
-                  </div> -->
+              <h3 class="mil-center mil-up mil-mb-120">
+                Discutons-<span class="mil-thin">en</span>
+              </h3>
+              <form class="row align-items-center">
+                <div class="col-lg-6 mil-up">
+                  <input type="text" placeholder="Quel est votre nom" />
                 </div>
-
+                <div class="col-lg-6 mil-up">
+                  <input type="email" placeholder="Votre email" />
+                </div>
+                <div class="col-lg-12 mil-up">
+                  <textarea
+                    placeholder="Parlez-nous de votre projet"
+                  ></textarea>
+                </div>
                 <div class="col-lg-8">
-                  <p class="mil-text-xl mil-dark mil-up mil-mb-60">
-                    Pourquoi certaines activations attirentinstantanémentles
-                    foules, alors que d’autres passent inaperçues ? Pourquoi un
-                    simple geste, une musique ou une couleur peuttransformer un
-                    passant en client ?<br />Derrière chaque campagne réussie se
-                    cache une vérité simple : le marketing est avanttout une
-                    science du comportement humain. Comprendre ce qui déclenche
-                    l’attention, la confiance etl’émotion estla clé d’une
-                    communication qui marque les esprits
-                  </p>
-
-                  <blockquote class="mil-up mil-mb-60">
-                    “Les gens n’achètent pas des produits, ils achètent des
-                    émotions.”
-                  </blockquote>
-
-                  <h5 class="mil-up mil-mb-30">
-                    Le cerveau décide avant la raison
-                  </h5>
-                  <p class="mil-up mil-mb-60">
-                    La majorité des décisions d’achat se prennent de manière
-                    instinctive, en quelques secondes. C’estle cerveau
-                    émotionnel qui parle avantla logique.<br />
-                    Sur le terrain, cette réalité est amplifiée : un sourire,
-                    une ambiance, un son peuvent déclencher une réaction
-                    immédiate.<br />
-                    FastCom mise sur cette science du premier contact pour
-                    concevoir des expériences qui séduisent avant même de
-                    convaincre.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-30">
-                    L’importance des sens dans la mémorisation
-                  </h5>
-                  <p class="mil-up mil-mb-60">
-                    L’odorat, la musique, la texture d’un objet ou l’éclairage
-                    d’un stand ne sont pas des détails : ce sont des leviers
-                    puissants.<br />
-                    Le cerveau associe une marque à une sensation : le son d'une
-                    boisson ouverte, la douceur d'un packaging, l'énergie d'une
-                    ambiance.<br />
-                    C'est pourquoi FastCom conçoit chaque détail comme un signal
-                    émotionnel. Une activation n'est pas une simple animation,
-                    c’est une mise en scène sensorielle.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-30">
-                    Créerde la confiancepar la cohérence
-                  </h5>
-                  <p class="mil-up mil-mb-60">
-                    Une expérience réussie n’est pas seulement belle, elle est
-                    cohérente. Le message, le ton, la décoration, les tenues du
-                    staff,tout doitraconterla même histoire.<br />
-                    Lorsqu'un consommateur perçoit une dissonance — un discours
-                    écologique dans un stand surconsommateur d'énergie, par
-                    exemple — la confiance se brise.<br />
-                    FastCom veille à ce que chaque élémentreflète les valeurs de
-                    la marque, pour créer un sentiment de sincérité et
-                    d’alignement.
-                  </p>
-
-                  <h5 class="mil-up mil-mb-30">
-                    De l’attention à l’action : déclencher le passage à l’achat
-                  </h5>
-                  <p class="mil-up mil-mb-60">
-                    L’objectiffinal d’une activation n’est pas seulement de
-                    plaire, mais d’inciter à agir. En s’appuyant sur des stimuli
-                    visuels clairs (offres, démonstrations, essais produits), le
-                    terrain transforme l’intérêt en décision.
-                  </p>
-
-                  <!-- <div class="row">
-                    <div class="col-lg-6">
-                    <div
-                        class="mil-image-frame mil-horizontal mil-up mil-mb-30"
-                    >
-                        <img src="img/blog/4.jpg" alt="Publication cover" />
-                    </div>
-                    </div>
-                    <div class="col-lg-6">
-                    <div
-                        class="mil-image-frame mil-horizontal mil-up mil-mb-60"
-                    >
-                        <img src="img/blog/7.jpg" alt="Publication cover" />
-                    </div>
-                    </div>
-                </div> -->
-
-                  <p class="mil-up mil-mb-60">
-                    C’est là que la psychologie rejoint la stratégie : plus
-                    l’expérience est fluide, plus le consommateur agit
-                    naturellement.
-                  </p>
-
-                  <blockquote class="mil-up mil-mb-60">
-                    “Une bonne communication ne cherche pas à manipuler, mais à
-                    comprendre ce qui motive. ”
-                  </blockquote>
-
                   <p class="mil-up mil-mb-30">
-                    Une campagne quifonctionne ne dépend pas du hasard. Elle
-                    naît d’une compréhension fine du comportement humain, d’une
-                    capacité à écouter, observer et anticiperles émotions. La
-                    psychologie du consommateur n’est pas un outil de
-                    manipulation, mais un levier d’empathie. C’est ce qui permet
-                    de concevoir des expériences qui parlent sincèrement aux
-                    gens, sans artifice ni surenchère<br /><br />
-                    Les marques qui réussissent aujourd’hui sont celles qui :<br /><br />
-                    - Comprennent que chaque interaction est une conversation
-                    émotionnelle.<br />
-                    - S'appuient sur les cinq sens pour ancrer leur message dans
-                    la mémoire.<br />
-                    - Et surtout, placent l'humain au centre de la stratégie,
-                    pas les chiffres.<br /><br />
-                    FastCom défend cette approche sensible etintelligente du
-                    marketing terrain. Parce qu'une marque qui comprend ce que
-                    ressent son public devient naturellement plus proche, plus
-                    crédible, et plus aimée. <br /><br />
-                    Et dans un monde où la confiance se gagne plus difficilement
-                    que jamais, comprendre, c’est déjà séduire.
-                  </p>
-
-                  <p class="mil-up mil-mb-30">
-                    Une marque qui réussit aujourd'hui n'est pas celle qui
-                    communique le plus, mais celle qui crée de vrais
-                    souvenirs.<br />
-                    C'est cette philosophie que FastCom applique à chaque
-                    projet:transformer chaque espace, chaque moment, en
-                    expérience vivante, où la marque devient une présence
-                    concrète dans le quotidien des gens.<br /><br />
-                    Parce qu’au-delà des vues et des clics, le véritable succès
-                    se mesure à l’émotion partagée.
+                    <span class="mil-accent">*</span> Nous nous engageons à ne
+                    pas divulguer vos informations personnelles à des tiers.
                   </p>
                 </div>
-              </div>
-            </div>
-          </section>
-          <!-- publication end -->
-
-          <!-- similar -->
-          <section class="mil-soft-bg">
-            <div class="container mil-p-120-60">
-              <div class="row align-items-center mil-mb-30">
-                <div class="col-lg-6 mil-mb-30">
-                  <h3 class="mil-up">Publications similaires :</h3>
-                </div>
-                <div class="col-lg-6 mil-mb-30">
-                  <div class="mil-adaptive-right mil-up">
-                    <a
-                      href="blog.html"
-                      class="mil-link mil-dark mil-arrow-place"
-                    >
-                      <span>Voir tout</span>
-                    </a>
+                <div class="col-lg-4">
+                  <div class="mil-adaptive-right mil-up mil-mb-30">
+                    <button type="submit" class="mil-button mil-arrow-place">
+                      <span>Envoyer</span>
+                    </button>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <a href="publication-1.html" class="mil-blog-card mil-mb-60">
-                    <div class="mil-cover-frame mil-up">
-                      <img src="img/blog/b1.jpg" alt="cover" />
-                    </div>
-                    <div class="mil-post-descr">
-                      <div class="mil-labels mil-up mil-mb-30">
-                        <div class="mil-label mil-upper mil-accent">
-                          MARKETING
-                        </div>
-                        <div class="mil-label mil-upper">OCTOBER 2025</div>
-                      </div>
-                      <h4 class="mil-up mil-mb-30">
-                        Pourquoi la communication terrain reste l'arme la plus
-                        puissante à l'ère du digital
-                      </h4>
-                      <p class="mil-post-text mil-up mil-mb-30">
-                        Dans un monde saturé de publicités en ligne, de
-                        notifications incessantes et de messages sponsorisés,
-                        une question se pose : comment une marque peut-elle
-                        encore créer un vrai lien avec son public ?
-                      </p>
-                      <div class="mil-link mil-dark mil-arrow-place mil-up">
-                        <span>Lire la suite</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-lg-6">
-                  <a href="publication-4.html" class="mil-blog-card mil-mb-60">
-                    <div class="mil-cover-frame mil-up">
-                      <img src="img/blog/b4.jpg" alt="cover" />
-                    </div>
-                    <div class="mil-post-descr">
-                      <div class="mil-labels mil-up mil-mb-30">
-                        <div class="mil-label mil-upper mil-accent">
-                          MARKETING
-                        </div>
-                        <div class="mil-label mil-upper">OCTOBER 2025</div>
-                      </div>
-                      <h4 class="mil-up mil-mb-30">
-                        PLV, Enseignes, Habillage : quand le design devient un
-                        vendeur silencieux
-                      </h4>
-                      <p class="mil-post-text mil-up mil-mb-30">
-                        Que voit un client en premier lorsqu'il entre dans un
-                        magasin ? Le produit ? Pas toujours. Avant même de
-                        découvrir l'offre, son regard est attiré par les
-                        couleurs, la lumière.
-                      </p>
-                      <div class="mil-link mil-dark mil-arrow-place mil-up">
-                        <span>Lire la suite</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
+              </form>
             </div>
           </section>
-          <!-- similar end -->
+          <!-- contact form end -->
 
-          <!-- footer -->
           <!-- footer -->
           <footer class="mil-dark-bg">
             <div class="mi-invert-fix">
@@ -506,15 +289,25 @@
                             <li class="mil-up">
                               <a href="services.html">Services</a>
                             </li>
-                            <li class="mil-up">
+                            <li class="mil-up mil-active">
                               <a href="contact.html">Contact</a>
                             </li>
-                            <li class="mil-up mil-active">
+                            <li class="mil-up">
                               <a href="blog.html">Newsletter</a>
                             </li>
                           </ul>
                         </nav>
                       </div>
+                      <!-- <div class="col-md-6 col-lg-5">
+
+                                            <ul class="mil-menu-list mil-up mil-mb-60">
+                                                <li><a href="#." class="mil-light-soft">Politique de confidentialité</a></li>
+                                                <li><a href="#." class="mil-light-soft">Conditions générales</a></li>
+                                                <li><a href="#." class="mil-light-soft">Politique des cookies</a></li>
+                                                <li><a href="#." class="mil-light-soft">Carrières</a></li>
+                                            </ul>
+
+                                        </div> -->
                     </div>
                   </div>
                 </div>
@@ -522,6 +315,13 @@
                 <div class="row justify-content-between flex-sm-row-reverse">
                   <div class="col-md-7 col-lg-6">
                     <div class="row justify-content-between">
+                      <!-- <div class="col-md-6 col-lg-5 mil-mb-60">
+
+                                            <h6 class="mil-muted mil-up mil-mb-30">Canada</h6>
+
+                                            <p class="mil-light-soft mil-up">71 South Los Carneros Road, California <span class="mil-no-wrap">+51 174 705 812</span></p>
+
+                                        </div> -->
                       <div class="col-md-6 col-lg-7 mil-mb-60">
                         <h6 class="mil-muted mil-up mil-mb-30">Morocco</h6>
 
@@ -747,7 +547,7 @@
     <script src="js/plugins/ScrollTrigger.min.js"></script>
     <!-- scroll to js -->
     <script src="js/plugins/ScrollTo.min.js"></script>
-    <!-- ashley js -->
+    <!-- FastCom js -->
     <script src="js/main.js"></script>
   </body>
 </html>

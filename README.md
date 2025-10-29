@@ -29,7 +29,7 @@ start.bat
 npm start
 ```
 
-This will automatically open your browser to: `http://localhost:8000/ashley/home-1.html`
+This will automatically open your browser to: `http://localhost:8000/FastCom/home-1.html`
 
 ### Method 4: Using Python directly
 
@@ -37,13 +37,13 @@ This will automatically open your browser to: `http://localhost:8000/ashley/home
 python3 -m http.server 8000
 ```
 
-Then visit: `http://localhost:8000/ashley/home-1.html`
+Then visit: `http://localhost:8000/FastCom/home-1.html`
 
 ## 📁 Project Structure
 
 ```
 fastcom-new/
-├── ashley/              # Main website files
+├── FastCom/              # Main website files
 │   ├── home-1.html     # Homepage
 │   ├── css/            # Stylesheets
 │   ├── js/             # JavaScript files
@@ -58,11 +58,11 @@ fastcom-new/
 
 Once the server is running, you can access:
 
-- Home Page 1: http://localhost:8000/ashley/home-1.html
-- Home Page 2: http://localhost:8000/ashley/home-2.html
-- Services: http://localhost:8000/ashley/services.html
-- Blog: http://localhost:8000/ashley/blog.html
-- Contact: http://localhost:8000/ashley/contact.html
+- Home Page 1: http://localhost:8000/FastCom/home-1.html
+- Home Page 2: http://localhost:8000/FastCom/home-2.html
+- Services: http://localhost:8000/FastCom/services.html
+- Blog: http://localhost:8000/FastCom/blog.html
+- Contact: http://localhost:8000/FastCom/contact.html
 - And more...
 
 ## 🛠️ Requirements
@@ -75,7 +75,7 @@ Once the server is running, you can access:
 - The server runs on port **8000** by default
 - Press `Ctrl+C` to stop the server
 - All files are served from the repository root
-- Website files are in the `ashley/` directory
+- Website files are in the `FastCom/` directory
 
 ## 🚀 Deployment
 

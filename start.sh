@@ -10,7 +10,7 @@ echo ""
 if command -v python3 &> /dev/null; then
     echo "✓ Using Python 3"
     echo "📂 Server running at: http://localhost:8000"
-    echo "🏠 Opening home page at: http://localhost:8000/ashley/home-1.html"
+    echo "🏠 Opening home page at: http://localhost:8000/FastCom/home-1.html"
     echo ""
     echo "Press Ctrl+C to stop the server"
     echo ""
@@ -22,7 +22,7 @@ if command -v python3 &> /dev/null; then
 elif command -v python &> /dev/null; then
     echo "✓ Using Python 2"
     echo "📂 Server running at: http://localhost:8000"
-    echo "🏠 Opening home page at: http://localhost:8000/ashley/home-1.html"
+    echo "🏠 Opening home page at: http://localhost:8000/FastCom/home-1.html"
     echo ""
     echo "Press Ctrl+C to stop the server"
     echo ""

@@ -11,7 +11,7 @@ where python >nul 2>nul
 if %errorlevel% equ 0 (
     echo Using Python
     echo Server running at: http://localhost:8000
-    echo Opening home page at: http://localhost:8000/ashley/home-1.html
+    echo Opening home page at: http://localhost:8000/FastCom/home-1.html
     echo.
     echo Press Ctrl+C to stop the server
     echo.

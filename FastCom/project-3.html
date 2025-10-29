@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/plugins/swiper.min.css" />
     <!-- fancybox css -->
     <link rel="stylesheet" href="css/plugins/fancybox.min.css" />
-    <!-- ashley scss -->
+    <!-- FastCom scss -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- page name -->
     <title>FastCom</title>
@@ -34,10 +34,28 @@
             />
           </svg>
         </span>
-        <div class="mil-more-text">Plus</div>
+        <div class="mil-more-text">Voir plus</div>
         <div class="mil-choose-text">Choisir</div>
       </div>
       <!-- cursor end -->
+
+      <!-- preloader -->
+      <div class="mil-preloader">
+        <div class="mil-preloader-animation">
+          <div class="mil-pos-abs mil-animation-1">
+            <p class="mil-h3 mil-muted mil-thin">Marketing</p>
+            <p class="mil-h3 mil-muted">and</p>
+            <p class="mil-h3 mil-muted mil-thin">Services</p>
+          </div>
+          <div class="mil-pos-abs mil-animation-2">
+            <div class="mil-reveal-frame">
+              <p class="mil-reveal-box"></p>
+              <p class="mil-h3 mil-muted mil-thin">FastCom.ma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- preloader end -->
 
       <!-- scrollbar progress -->
       <div class="mil-progress-track">
@@ -67,7 +85,7 @@
                     <li class="mil-has-children">
                       <a href="portfolio-3.html">Portfolio</a>
                     </li>
-                    <li class="mil-has-children mil-active">
+                    <li class="mil-has-children">
                       <a href="services.html">Services</a>
                     </li>
                     <li class="mil-has-children">
@@ -182,196 +200,178 @@
       <div class="mil-content">
         <div id="swupMain" class="mil-main-transition">
           <!-- banner -->
-          <div class="mil-dark-bg">
-            <div class="mil-inner-banner">
-              <div class="mi-invert-fix">
-                <div class="mil-banner-content mil-up">
-                  <div class="mil-animation-frame">
-                    <div
-                      class="mil-animation mil-position-4 mil-scale"
-                      data-value-1="6"
-                      data-value-2="1.4"
-                    ></div>
-                  </div>
-                  <div class="container">
-                    <ul class="mil-breadcrumbs mil-light mil-mb-60">
-                      <li><a href="home-1.html">Accueil</a></li>
-                      <li><a href="services.html">Services</a></li>
-                    </ul>
-                    <h1 class="mil-muted mil-mb-60">
-                      C'est ce que <span class="mil-thin">nous</span><br />
-                      faisons <span class="mil-thin">de mieux</span>
-                    </h1>
-                    <a
-                      href="#services"
-                      class="mil-link mil-accent mil-arrow-place mil-down-arrow"
-                    >
-                      <span>Nos services</span>
-                    </a>
-                  </div>
-                </div>
+          <div class="mil-inner-banner">
+            <div class="mil-banner-content mil-up">
+              <div class="mil-animation-frame">
+                <div
+                  class="mil-animation mil-position-4 mil-dark mil-scale"
+                  data-value-1="6"
+                  data-value-2="1.4"
+                ></div>
+              </div>
+              <div class="container">
+                <ul class="mil-breadcrumbs mil-mb-60">
+                  <li><a href="home-1.html">Accueil</a></li>
+                  <li><a href="portfolio-3.html">Portfolio</a></li>
+                  <li>
+                    <a href="project-1.html">Activations GMS President</a>
+                  </li>
+                </ul>
+                <h1 class="mil-mb-60">
+                  Activations <span class="mil-thin">GMS President</span>
+                </h1>
+                <a
+                  href="#project"
+                  class="mil-link mil-dark mil-arrow-place mil-down-arrow"
+                >
+                  <span>En savoir plus</span>
+                </a>
               </div>
             </div>
-            <!-- banner end -->
+          </div>
+          <!-- banner end -->
 
-            <!-- services -->
-            <section id="services">
-              <div class="mi-invert-fix">
-                <div class="container mil-p-120-60">
-                  <div class="row">
-                    <div class="col-lg-5">
-                      <div class="mil-lines-place mil-light"></div>
+          <!-- project -->
+          <section id="project">
+            <div class="container mil-p-120-120">
+              <div class="swiper-container mil-1-slider mil-up">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="mil-image-frame mil-horizontal mil-drag">
+                      <img src="img/works/p3/PH1.jpg" alt="image" />
+                      <a
+                        data-fancybox="gallery"
+                        data-no-swup
+                        href="img/works/p3/PH1.jpg"
+                        class="mil-zoom-btn"
+                      >
+                        <img src="img/icons/zoom.svg" alt="zoom" />
+                      </a>
                     </div>
-                    <div class="col-lg-7">
-                      <div class="row">
-                        <div class="col-md-6 col-lg-6">
-                          <a
-                            href="service.html"
-                            class="mil-service-card-lg mil-more mil-accent-cursor mil-offset"
-                          >
-                            <h4 class="mil-muted mil-up mil-mb-30">
-                              BTL <br />
-                              Below the line
-                            </h4>
-                            <p
-                              class="mil-descr mil-light-soft mil-up mil-mb-30"
-                            >
-                              Notre agence créative conçoit des expériences
-                              urbaines qui connectent directement les marques
-                              avec le public. Nous transformons la rue en un
-                              véritable terrain d’expression pour booster votre
-                              notoriété.
-                            </p>
-                            <ul class="mil-service-list mil-light mil-mb-30">
-                              <li class="mil-up">Activations Plages</li>
-                              <li class="mil-up">Street Marketing</li>
-                              <li class="mil-up">Animations sur GMS</li>
-                              <li class="mil-up">Door To Door</li>
-                              <li class="mil-up">Distribution des Flyers</li>
-                              <li class="mil-up">Caravane Mobiles</li>
-                            </ul>
-                            <div
-                              class="mil-link mil-accent mil-arrow-place mil-up"
-                            >
-                              <span>En savoir plus</span>
-                            </div>
-                          </a>
-                        </div>
-                        <div class="col-md-6 col-lg-6">
-                          <a
-                            href="service2.html"
-                            class="mil-service-card-lg mil-more mil-accent-cursor"
-                          >
-                            <h4 class="mil-muted mil-up mil-mb-30">
-                              Marketing Digital
-                            </h4>
-                            <p
-                              class="mil-descr mil-light-soft mil-up mil-mb-30"
-                            >
-                              Notre agence digitale accompagne les marques dans
-                              leur transformation en ligne à travers des
-                              stratégies innovantes et des outils performants.
-                              Nous concevons des expériences digitales qui
-                              stimulent la croissance et renforcent votre
-                              présence sur le web.
-                            </p>
-                            <ul class="mil-service-list mil-light mil-mb-30">
-                              <li class="mil-up">
-                                Création de sites web & applications mobiles
-                              </li>
-                              <li class="mil-up">
-                                Gestion et création de contenu social media
-                              </li>
-                              <li class="mil-up">
-                                Campagnes publicitaires (Meta, Google,
-                                TikTok...)
-                              </li>
-                              <li class="mil-up">
-                                SEO & stratégie d’acquisition
-                              </li>
-                              <li class="mil-up">Relations presse</li>
-                              <li class="mil-up">Production Audiovisuelle</li>
-                              <li class="mil-up">Marketing d'influence</li>
-                            </ul>
-                            <div
-                              class="mil-link mil-accent mil-arrow-place mil-up"
-                            >
-                              <span>En savoir plus</span>
-                            </div>
-                          </a>
-                        </div>
-                        <div class="col-md-6 col-lg-6">
-                          <a
-                            href="service3.html"
-                            class="mil-service-card-lg mil-more mil-accent-cursor"
-                          >
-                            <h4 class="mil-muted mil-up mil-mb-30">
-                              PLV <br />Publicité sur le Lieu de Vente
-                            </h4>
-                            <p
-                              class="mil-descr mil-light-soft mil-up mil-mb-30"
-                            >
-                              Notre équipe développe des solutions visuelles qui
-                              valorisent vos produits et renforcent votre image
-                              en point de vente.
-                            </p>
-                            <ul class="mil-service-list mil-light mil-mb-30">
-                              <li class="mil-up">
-                                Habillage des voitures, Vans, Camion
-                              </li>
-                              <li class="mil-up">
-                                Conception et impression de matériel de PLV
-                              </li>
-                              <li class="mil-up">
-                                Habillages des Points de Ventes
-                              </li>
-                              <li class="mil-up">Fabrication des stands</li>
-                            </ul>
-                            <div
-                              class="mil-link mil-accent mil-arrow-place mil-up"
-                            >
-                              <span>En savoir plus</span>
-                            </div>
-                          </a>
-                        </div>
-                        <div class="col-md-6 col-lg-6">
-                          <a
-                            href="service4.html"
-                            class="mil-service-card-lg mil-more mil-accent-cursor mil-offset"
-                          >
-                            <h4 class="mil-muted mil-up mil-mb-30">
-                              Evènementiel
-                            </h4>
-                            <p
-                              class="mil-descr mil-light-soft mil-up mil-mb-30"
-                            >
-                              Nous imaginons et réalisons des événements
-                              immersifs pour créer une véritable connexion
-                              émotionnelle entre votre marque et vos clients.
-                            </p>
-                            <ul class="mil-service-list mil-light mil-mb-30">
-                              <li class="mil-up">
-                                Organisation des évènements
-                              </li>
-                              <li class="mil-up">
-                                Fabrication de matériel des évènements
-                              </li>
-                            </ul>
-                            <div
-                              class="mil-link mil-accent mil-arrow-place mil-up"
-                            >
-                              <span>En savoir plus</span>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="mil-image-frame mil-horizontal mil-drag">
+                      <img src="img/works/p3/PH2.jpg" alt="image" />
+                      <a
+                        data-fancybox="gallery"
+                        data-no-swup
+                        href="img/works/p3/PH2.jpg"
+                        class="mil-zoom-btn"
+                      >
+                        <img src="img/icons/zoom.svg" alt="zoom" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="mil-image-frame mil-horizontal mil-drag">
+                      <img src="img/works/p3/PH3.jpg" alt="image" />
+                      <a
+                        data-fancybox="gallery"
+                        data-no-swup
+                        href="img/works/p3/PH3.jpg"
+                        class="mil-zoom-btn"
+                      >
+                        <img src="img/icons/zoom.svg" alt="zoom" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="mil-image-frame mil-horizontal mil-drag">
+                      <img src="img/works/p3/PH4.jpg" alt="image" />
+                      <a
+                        data-fancybox="gallery"
+                        data-no-swup
+                        href="img/works/p3/PH4.jpg"
+                        class="mil-zoom-btn"
+                      >
+                        <img src="img/icons/zoom.svg" alt="zoom" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="mil-image-frame mil-horizontal mil-drag">
+                      <img src="img/works/p3/PH5.jpg" alt="image" />
+                      <a
+                        data-fancybox="gallery"
+                        data-no-swup
+                        href="img/works/p3/PH5.jpg"
+                        class="mil-zoom-btn"
+                      >
+                        <img src="img/icons/zoom.svg" alt="zoom" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="mil-image-frame mil-horizontal mil-drag">
+                      <img src="img/works/p3/PH6.jpg" alt="image" />
+                      <a
+                        data-fancybox="gallery"
+                        data-no-swup
+                        href="img/works/p3/PH6.jpg"
+                        class="mil-zoom-btn"
+                      >
+                        <img src="img/icons/zoom.svg" alt="zoom" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="mil-image-frame mil-horizontal mil-drag">
+                      <img src="img/works/p3/PH7.jpg" alt="image" />
+                      <a
+                        data-fancybox="gallery"
+                        data-no-swup
+                        href="img/works/p3/PH7.jpg"
+                        class="mil-zoom-btn"
+                      >
+                        <img src="img/icons/zoom.svg" alt="zoom" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="mil-image-frame mil-horizontal mil-drag">
+                      <img src="img/works/p3/PH8.jpg" alt="image" />
+                      <a
+                        data-fancybox="gallery"
+                        data-no-swup
+                        href="img/works/p3/PH8.jpg"
+                        class="mil-zoom-btn"
+                      >
+                        <img src="img/icons/zoom.svg" alt="zoom" />
+                      </a>
                     </div>
                   </div>
                 </div>
               </div>
-            </section>
-          </div>
-          <!-- services end -->
+              <div class="mil-info mil-up">
+                <div>
+                  Client: &nbsp;<span class="mil-dark">Envato Market</span>
+                </div>
+                <div>Date: &nbsp;<span class="mil-dark">April 2023</span></div>
+                <div>
+                  Author: &nbsp;<span class="mil-dark">Paul Trueman</span>
+                </div>
+              </div>
+
+              <div class="mil-works-nav mil-up">
+                <a
+                  href="project-2.html"
+                  class="mil-link mil-dark mil-arrow-place mil-icon-left"
+                >
+                  <span>Projet précédent</span>
+                </a>
+                <a href="portfolio-3.html" class="mil-link mil-dark">
+                  <span>Tous les projets</span>
+                </a>
+                <a
+                  href="project-4.html"
+                  class="mil-link mil-dark mil-arrow-place"
+                >
+                  <span>Projet suivant</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- project end -->
 
           <!-- call to action -->
           <section class="mil-soft-bg">
@@ -380,17 +380,17 @@
                 <div class="col-lg-10">
                   <span
                     class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up"
-                    >Vous cherchez à faire la différence ? Nous vous aiderons
-                    <br />
-                    à transformer votre projet en succès.</span
+                    >Vous cherchez à vous démarquer ? Nous vous aiderons à
+                    transformer <br />
+                    votre projet en histoire de succès.</span
                   >
                 </div>
               </div>
               <div class="mil-center">
                 <h2 class="mil-up mil-mb-60">
-                  Faisons un <span class="mil-thin">impact</span><br />
-                  ensemble. Prêts
-                  <span class="mil-thin">quand vous l'êtes</span>
+                  Prêt à donner vie à
+                  <span class="mil-thin">vos idées</span> ? <br />
+                  Nous sommes <span class="mil-thin">là pour vous aider</span>
                 </h2>
                 <div class="mil-up">
                   <a href="contact.html" class="mil-button mil-arrow-place"
@@ -435,7 +435,7 @@
                             <li class="mil-up">
                               <a href="portfolio-3.html">Portfolio</a>
                             </li>
-                            <li class="mil-up mil-active">
+                            <li class="mil-up">
                               <a href="services.html">Services</a>
                             </li>
                             <li class="mil-up">
@@ -679,7 +679,7 @@
     <script src="js/plugins/ScrollTrigger.min.js"></script>
     <!-- scroll to js -->
     <script src="js/plugins/ScrollTo.min.js"></script>
-    <!-- ashley js -->
+    <!-- FastCom js -->
     <script src="js/main.js"></script>
   </body>
 </html>
