@@ -1,9 +1,48 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- SEO Meta Tags -->
+    <title>
+      Nos Services - FastCom | Marketing, Design & Communication au Maroc
+    </title>
+    <meta
+      name="description"
+      content="Découvrez nos services marketing à Casablanca : Design & Production, Street Marketing, Branding & Packaging, Digital & Événementiel. Solutions complètes pour votre entreprise."
+    />
+    <meta
+      name="keywords"
+      content="services marketing maroc, design production casablanca, street marketing, branding packaging, événementiel maroc, agence communication"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://fastcom.ma/services.html" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fastcom.ma/services.html" />
+    <meta
+      property="og:title"
+      content="Nos Services - FastCom | Marketing & Communication"
+    />
+    <meta
+      property="og:description"
+      content="Services marketing complets : Design & Production, Street Marketing, Branding & Packaging, Digital & Événementiel."
+    />
+    <meta property="og:image" content="https://fastcom.ma/img/photo/p3.jpeg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Nos Services - FastCom | Marketing & Communication"
+    />
+    <meta
+      name="twitter:description"
+      content="Services marketing complets : Design & Production, Street Marketing, Branding & Packaging, Digital & Événementiel."
+    />
 
     <!-- favicon -->
     <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32" />
@@ -18,8 +57,58 @@
     <link rel="stylesheet" href="css/plugins/fancybox.min.css" />
     <!-- FastCom scss -->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- page name -->
-    <title>FastCom</title>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Marketing and Communication Services",
+        "provider": {
+          "@type": "Organization",
+          "name": "FastCom",
+          "url": "https://fastcom.ma"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Morocco"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Marketing Services",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Design & Production"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Street Marketing"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Branding & Packaging"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Digital & Événementiel"
+              }
+            }
+          ]
+        }
+      }
+    </script>
   </head>
 
   <body>

@@ -1,0 +1,15 @@
+# robots.txt for fastcom.ma
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://fastcom.ma/sitemap.xml
+
+# Disallow admin or private areas if any
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all CSS and JS files for proper rendering
+Allow: /css/
+Allow: /js/
+Allow: /img/
